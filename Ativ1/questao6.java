@@ -18,10 +18,10 @@ public class Questao6 {
             System.out.println("Informe um numero de 1 a 10:");
             num = ler.nextInt();
             if (num >= 10 && num <= 20){
-                dentro = i+1;        
+                dentro++;        
             }
             else{
-                fora = i+1;
+                fora++;
         }
             
     }
