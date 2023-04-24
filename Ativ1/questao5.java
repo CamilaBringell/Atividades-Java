@@ -19,10 +19,10 @@ public class Questao5 {
             System.out.println("Digite um numero de 1 a 10:");
 		n = ler.nextInt();
                 if (n % 2 == 0){
-                par = +i;             
+                par++;             
                 }
                 else if (n % 2 >= 1){
-                    impar = +i;
+                    impar++;
                 }
             }
         System.out.println("Quantidade de pares:"+par);
