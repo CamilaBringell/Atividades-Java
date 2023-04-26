@@ -18,7 +18,9 @@ public class Questao11 {
             num = ler.nextInt();
         while (num < 12 || num > 20){
             System.out.println("entrada inválida");
-            break;
+            System.out.println("Informe um numero de 12 a 20:");
+            num = ler.nextInt();
+            
         }
         if(num >=12 && num <=20){
             System.out.println(num);
